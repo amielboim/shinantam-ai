@@ -11,6 +11,10 @@
         "longDescription": "שינון ולימוד בלכתך בדרך בעזרת שיחה זורמת עם הצ'ט, לימוד אינטרקטיבי ונעים, הצט רק מקריא מקורות ופירושים ועוזר לך לשנן ולזכור.",
         "developerName": "Amiel Elboim",
         "category": "Education & Research",
+        "websiteURL": "https://amielboim.github.io/shinantam-ai/",
+        "supportURL": "https://amielboim.github.io/shinantam-ai/support.html",
+        "privacyPolicyURL": "https://amielboim.github.io/shinantam-ai/privacy.html",
+        "termsOfServiceURL": "https://amielboim.github.io/shinantam-ai/terms.html",
         "composerIcon": "./assets/icon.svg",
         "logo": "./assets/icon.svg"
       }
