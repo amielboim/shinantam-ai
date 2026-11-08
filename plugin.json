@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "shinantam-ai",
+  "version": "0.1.0",
+  "description": "Hebrew conversation workflows for learning and memorizing Jewish texts.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ושיננתם-AI",
+        "shortDescription": "לימוד ושינון מקורות תורניים",
+        "longDescription": "שינון ולימוד בלכתך בדרך בעזרת שיחה זורמת עם הצ'ט, לימוד אינטרקטיבי ונעים, הצט רק מקריא מקורות ופירושים ועוזר לך לשנן ולזכור.",
+        "developerName": "Amiel Elboim",
+        "category": "Education & Research",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}
