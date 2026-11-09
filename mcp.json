@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "shinantam-learning-log": {
+      "type": "streamable-http",
+      "url": "https://remote-mcp-server-authless.amielboim.workers.dev/mcp"
+    }
+  }
+}

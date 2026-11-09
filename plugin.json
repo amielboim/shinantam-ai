@@ -2,15 +2,19 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "shinantam-ai",
   "version": "0.1.0",
-  "description": "Hebrew conversation workflows for learning and memorizing Jewish texts.",
+  "description": "Hebrew learning and memorization workflows for traditional Jewish texts, with optional session logging.",
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "ושיננתם-AI",
         "shortDescription": "לימוד ושינון מקורות תורניים",
-        "longDescription": "שינון ולימוד בלכתך בדרך בעזרת שיחה זורמת עם הצ'ט, לימוד אינטרקטיבי ונעים, הצט רק מקריא מקורות ופירושים ועוזר לך לשנן ולזכור.",
+        "longDescription": "ושיננתם-AI מלווה לימוד וחזרה על מקורות תורניים בעברית באמצעות שיחה אינטראקטיבית. לאחר הסכמה מפורשת, אפשר לתעד סיכום קצר של סשן הלימוד בלוגים של שרת Cloudflare. התיעוד משויך למזהי המשתמש והשיחה האנונימיים ש‑ChatGPT מספק אוטומטית; אין מסד נתונים או אימות זהות.",
         "developerName": "Amiel Elboim",
         "category": "Education & Research",
+        "capabilities": [
+          "לימוד ושינון מקורות תורניים",
+          "תיעוד סשן לימוד בהסכמה מפורשת"
+        ],
         "websiteURL": "https://amielboim.github.io/shinantam-ai/",
         "supportURL": "https://amielboim.github.io/shinantam-ai/support.html",
         "privacyPolicyURL": "https://amielboim.github.io/shinantam-ai/privacy.html",
