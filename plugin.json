@@ -23,6 +23,7 @@
         "logo": "./assets/icon.svg"
       },
       "review": {
+        "demo_recording_url": "https://youtu.be/lAX-dQRHJTk",
         "test_cases": {
           "positive": [
             {
