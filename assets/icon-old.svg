@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Torah study with AI while travelling">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171D50"/>
+      <stop offset="1" stop-color="#0D143C"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2DD8CE"/>
+      <stop offset="1" stop-color="#168CA8"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF9E7"/>
+      <stop offset="1" stop-color="#F1D89D"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#25A8B6"/>
+      <stop offset=".55" stop-color="#F5FFFF"/>
+      <stop offset="1" stop-color="#F5FFFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Conversation bubble around the Torah -->
+  <path d="M115 247c0-87 64-151 151-151s151 64 151 151-64 151-151 151c-17 0-34-3-49-8l-63 37 19-65c-36-28-58-68-58-115Z" fill="url(#bubble)" stroke="#83F1E4" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M143 247c0-70 53-123 123-123s123 53 123 123-53 123-123 123c-17 0-33-3-48-9" fill="none" stroke="#B3FFF0" stroke-width="4" opacity=".65"/>
+  <circle cx="266" cy="147" r="6" fill="#C3FFF4"/>
+  <circle cx="363" cy="246" r="6" fill="#C3FFF4"/>
+  <circle cx="170" cy="246" r="6" fill="#C3FFF4"/>
+
+  <!-- Torah scroll -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M176 205c0-19 15-34 34-34h112c19 0 34 15 34 34v104c0 19-15 34-34 34H210c-19 0-34-15-34-34Z" fill="url(#page)" stroke="#17204D" stroke-width="10"/>
+    <path d="M258 179v151" stroke="#D6AA55" stroke-width="8"/>
+    <path d="M198 190c0-14 10-24 24-24s24 10 24 24v131c0 14-10 24-24 24s-24-10-24-24Z" fill="#F2D28E" stroke="#17204D" stroke-width="9"/>
+    <path d="M270 190c0-14 10-24 24-24s24 10 24 24v131c0 14-10 24-24 24s-24-10-24-24Z" fill="#F2D28E" stroke="#17204D" stroke-width="9"/>
+    <path d="M215 216h32m-32 24h32m-32 24h32m-32 24h27M269 216h32m-32 24h32m-32 24h32m-32 24h27" stroke="#263165" stroke-width="7"/>
+    <path d="M213 158v-18a9 9 0 0 1 18 0v18m72 0v-18a9 9 0 0 1 18 0v18" fill="#F2D28E" stroke="#17204D" stroke-width="8"/>
+    <path d="M206 188h32m72 0h32" stroke="#DCA94D" stroke-width="9"/>
+  </g>
+
+  <!-- Voice and AI bubble -->
+  <path d="M365 120c0-34 27-61 62-61s62 27 62 61-27 61-62 61h-18l-26 18 7-30c-15-11-25-29-25-49Z" fill="#147FA4" stroke="#B3FFF0" stroke-width="8" stroke-linejoin="round"/>
+  <g stroke="#C5FFF5" stroke-width="7" stroke-linecap="round">
+    <path d="M400 119v5m14-18v31m14-42v53m14-39v25m14-17v9"/>
+  </g>
+  <circle cx="399" cy="121" r="3.5" fill="#C5FFF5"/>
+  <circle cx="456" cy="121" r="3.5" fill="#C5FFF5"/>
+
+  <!-- A broad road curves beneath the Torah, with a small travelling car -->
+  <path d="M37 477c76-74 132-92 197-88 63 4 92 36 145 25 35-7 64-27 96-62" fill="none" stroke="#138CA2" stroke-width="57" stroke-linecap="round"/>
+  <path d="M37 477c76-74 132-92 197-88 63 4 92 36 145 25 35-7 64-27 96-62" fill="none" stroke="url(#road)" stroke-width="39" stroke-linecap="round"/>
+  <path d="M51 463c18-17 34-29 49-38m45-23 20-7m53-1 17 4m53 20 19 3m48-8 17-8m39-28 16-17" fill="none" stroke="#27A9B7" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 19"/>
+
+  <!-- Simple car silhouette -->
+  <g transform="translate(330 374)">
+    <path d="M7 31 18 15c4-6 10-9 18-9h34c8 0 14 3 19 9l12 16 13 5v22H1V39Z" fill="#F8FFFF" stroke="#17204D" stroke-width="6" stroke-linejoin="round"/>
+    <path d="m28 16-9 15h31V12H37c-4 0-7 1-9 4Zm28-4v19h37l-9-12c-3-5-7-7-13-7Z" fill="#29BDD0"/>
+    <circle cx="25" cy="57" r="11" fill="#17204D" stroke="#73E7E4" stroke-width="5"/>
+    <circle cx="91" cy="57" r="11" fill="#17204D" stroke="#73E7E4" stroke-width="5"/>
+  </g>
+</svg>

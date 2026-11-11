@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-<h1 dir="rtl">shinantam-AI</h1>
+<h1 dir="rtl">ושיננתם.AI</h1>
 
 <p dir="rtl">שלד ראשוני ל־Plugin ללימוד ולשינון מקורות תורניים בעברית.</p>
 

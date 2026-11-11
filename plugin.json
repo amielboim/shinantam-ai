@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "shinantam-ai",
-  "version": "0.1.0",
-  "description": "Hebrew learning and memorization workflows for traditional Jewish texts, with optional session logging.",
+  "name": "shinantam.ai",
+  "version": "0.1.1",
+  "description": "Hebrew learning and memorization workflows for traditional Jewish texts.",
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "ושיננתם-AI",
+        "displayName": "ושיננתם.AI",
         "shortDescription": "לימוד ושינון מקורות תורניים",
-        "longDescription": "ושיננתם-AI מלווה לימוד וחזרה על מקורות תורניים בעברית באמצעות שיחה אינטראקטיבית. לאחר הסכמה מפורשת, אפשר לתעד סיכום קצר של סשן הלימוד בלוגים של שרת Cloudflare. התיעוד משויך למזהי המשתמש והשיחה האנונימיים ש‑ChatGPT מספק אוטומטית; אין מסד נתונים או אימות זהות.",
+        "longDescription": "ושיננתם.AI מלווה לימוד, חזרה ושינון של מקורות תורניים. הוא מקפיד לאתר ולבדוק את המקור, ההפניה והנוסח המדויק, כולל הניקוד, ומקריא את הטקסט במקטעים בלי לקצר או להשמיט מילים. הלימוד מתמקד בקריאה ובתרגול זכירה, בלי להוסיף הסברים או חידושים משלו. התמיכה בגמרא מוגבלת. בסיום הלימוד אפשר, בהסכמה מפורשת, לשמור סיכום קצר של הסשן בלוגי השרת.",
         "developerName": "Amiel Elboim",
         "category": "Education & Research",
         "capabilities": [
@@ -23,7 +23,7 @@
         "logo": "./assets/icon.svg"
       },
       "review": {
-        "demo_recording_url": "https://youtu.be/lAX-dQRHJTk",
+        "demo_recording_url": "https://youtu.be/zPwg68IEf1M",
         "test_cases": {
           "positive": [
             {
